@@ -65,10 +65,11 @@ a:hover {
 button {
   font-family: Roboto, sans-serif;
   border: none;
+  cursor: pointer;
   border-radius: 8px;
   background: #eee;
-  margin: 8px;
-  padding: 4px 12px;
+  margin: 8px 1px;
+  padding: 6px 12px;
 }
 
 input {
