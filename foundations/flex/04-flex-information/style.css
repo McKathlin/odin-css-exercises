@@ -18,6 +18,7 @@ body {
 
 .item {
   width: 200px;
+  text-align: center;
 }
 
 .item img {
