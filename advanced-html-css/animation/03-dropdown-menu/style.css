@@ -26,7 +26,24 @@ ul.dropdown-menu li:hover {
 }
 
 .visible {
+  animation: 1s pull-open;
+  transform-origin: 50% 0%;
   display: block;
 }
 
+@keyframes pull-open {
+  from {
+    transform: scaleY(0%);
+  }
+
+  75% {
+    transform: scaleY(110%);
+    transition-timing-function: ease-in;
+  }
+
+  to {
+    transform: scaleY(100%);
+    transition-timing-function: ease-in-out;
+  }
+}
 
